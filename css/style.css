@@ -596,6 +596,7 @@
         "seccion-2-disc seccion-2-disc seccion-2-disc seccion-2-disc"
         "footer footer footer footer"
     ;
+    overflow: hidden;
 }
 
 .header {
@@ -911,6 +912,17 @@
         justify-content: space-evenly;
         height: 1600px;
     }
+
+    .div-sec-2{
+        width: 530px;
+        margin: auto;
+    }
+
+    .seccion-2-disc img{
+        width: 100px;
+        height: 100px;
+    padding: 5px
+    }
     
 
 }
@@ -1023,7 +1035,7 @@
         font-size: 10px;
     }
 
-
+    /* MQ - index*/
     .seccion-3 img {
         width: 100px;
         
@@ -1035,20 +1047,30 @@
         width: 415px;
     }
 
+    .seccion-1 p{
+        font-size: 15px;
+    }
+
     .seccion-3 img:hover {
         transform: scale(1.4);
         transition: 1s;
     }
-    
+    /* MQ - footer*/
     .ul-2{
         width: 400px;
         font-size: 12px;
     }
-
+    /* MQ - discografia*/
     .ul-disc img{
         width: 90px;
         height: 90px;
     
+    }
+
+    .ul-disc{
+        width: 400px;
+        padding:30px;
+        margin: 30px;
     }
 
     .seccion-2-disc img{
@@ -1058,6 +1080,28 @@
 
     .seccion-2-disc h2{
         font-size: 25px;
+    }   
+
+    .seccion-1-disc h2{
+        font-size: 30px;
+    }
+
+    .div-sec-1 p{
+        font-size: 15px;
+    }
+
+    /*MQ - seccion historia*/
+    .seccion-1h p{
+        font-size: 15px;
+    }
+
+    /*MQ - seccion contacto*/
+    .main h2 {
+        font-size: 25px;
+    }
+
+    .div-contacto p{
+        font-size: 15px;
     }
 }
     
